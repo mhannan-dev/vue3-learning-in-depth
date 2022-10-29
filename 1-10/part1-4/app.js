@@ -3,9 +3,11 @@ var mainApp = Vue.createApp ({
     //return is a object
     //content between return object is called property 
     data(){
-
         return {
-            message: "Welcome to vue JS"
+            tutorialInfo:{
+                name: 'Learning a progressive framework VueJS 3',
+                githubLink: 'https://github.com/mhannan-dev/vue3-learning-in-depth',
+            }
         }
     }
 })
