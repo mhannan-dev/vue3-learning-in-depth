@@ -9,8 +9,8 @@ var mainApp = Vue.createApp ({
             this.count ++
             // this.count = this.count + 1
         },
-        decremnt(){
-            this.count = this.count - 1
+        decremnt(amount){
+            this.count = this.count - amount
         }
     }
 })
