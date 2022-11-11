@@ -1,16 +1,13 @@
 var app = Vue.createApp({
   data() {
     return {
-      count: 0
+      activeClass: "red"
     };
   },
 
   methods: {
-    increase() {
-      this.count++;
-    },
-    decrease() {
-      this.count--;
+    setClass(className) {
+      this.activeClass = className;
     }
   }
 });
